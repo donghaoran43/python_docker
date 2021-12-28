@@ -6,6 +6,5 @@ tasks:
   
   - name: "Install Ubuntu Packages"
     command: |
-      sudo apt update -y
-      sudo apt install -y vim wget ip-utils-ping net-tools nc
+      sudo apt-get update && sudo apt-get install -y vim wget iputils-ping net-tools netcat
 
