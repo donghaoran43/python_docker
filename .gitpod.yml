@@ -6,6 +6,6 @@ tasks:
   
   - name: "Install Ubuntu Packages"
     command: |
-      sudo apt-get update
-      sudo apt-get install -y vim wget ip-utils-ping net-tools focal
+      sudo apt-get update -y
+      sudo apt-get install -y vim wget ip-utils-ping net-tools nc
 
